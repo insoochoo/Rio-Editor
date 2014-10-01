@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Rio Editor</title>
+    <link href="static/framework/splitter/jquery.splitter.css" rel="stylesheet">
+    <link href="static/css/reset.css" rel="stylesheet">
+    <link href="static/css/rio.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="dashboard" style="width:100%;height:100vh">
+        <div id="navLeft">
+            <div id="html"><pre id="htmlEditor" style="height:100%"></pre></div>
+            <div id="css"><pre id="cssEditor" style="height:100%"></pre></div>
+        </div>
+        <div id="prevRight"><iframe id="preview" name="preview"></iframe></div>
+    </div>
+
+    <!-- javascript section -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script charset="utf-8" src="static/framework/editor/src-min-noconflict/ace.js" type="text/javascript"></script>
+    <script charset="utf-8" src="static/framework/splitter/jquery.splitter-0.14.0.js" type="text/javascript"></script>
+    <script src="static/javascript/rio.js"></script>
+    <!-- end of javascript -->
+</body>
+</html>
