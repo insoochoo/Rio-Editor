@@ -3,7 +3,7 @@ Rio-Editor
 
 Simple IDE for web development with live view
 
-Checkout : [Rio-Editor](http://earl93.github.io/Rio-Editor/)
+Checkout : [Rio-Editor](http://insoochoo.github.io/Rio-Editor/)
 
 Dependencies:
 ----------
