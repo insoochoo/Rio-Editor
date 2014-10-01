@@ -9,7 +9,7 @@
     });
 
     var initHTML = ['<h1>Rio <span> Editor </span></h1><br>',
-                '<h2>(Simple Editor for Web)</h2>'].join('\n');
+                    '<h2>(Simple Editor for Web)</h2>'].join('\n');
 
     var initCSS = ['body {',
                 '  padding-top: 80px;',
@@ -35,7 +35,7 @@
     var cssEditor = ace.edit("cssEditor");
 
     htmlEditor.setTheme("ace/theme/tomorrow_night_eighties");
-    cssEditor.setTheme("ace/theme/github");
+    cssEditor.setTheme("ace/theme/solarized_light");
     htmlEditor.getSession().setMode("ace/mode/html");
     cssEditor.getSession().setMode("ace/mode/css");
     htmlEditor.setValue(initHTML,1);
