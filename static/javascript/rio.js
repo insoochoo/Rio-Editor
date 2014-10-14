@@ -15,7 +15,7 @@
                 '  padding-top: 80px;',
                 '  text-align: center;',
                 '  font-family: monaco, monospace;',
-                '  background-color: PapayaWhip',
+                '  background-color: PapayaWhip;',
                 '}',
                 'h1 {',
                   '  font-size: 30px',
